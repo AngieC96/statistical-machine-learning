@@ -43,3 +43,12 @@ python3 -m jupyter notebook
 ```
 
 To deactivate the environment use `source deactivate` command.
+
+
+
+To convert the `.ipynb` file in `HTML` use the following command
+
+```bash
+jupyter nbconvert --to html notebook.ipynb
+```
+

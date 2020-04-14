@@ -55,6 +55,7 @@ arc.set <- matrix(c("A", "B",
                     "D", "G",
                     "F", "G",
                     "B", "D",
+                    "B", "H",
                     "E", "H"),
                   byrow = TRUE, ncol = 2,
                   dimnames = list(NULL, c("from", "to")))
