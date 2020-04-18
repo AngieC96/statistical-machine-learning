@@ -1,6 +1,6 @@
 # Statistical Machine Learning
 
-Please use the **dedicated forum on moodle** for questions on theory and exercises.
+Please use the **dedicated forum on Moodle** for questions on theory and exercises.
 
 If you notice some errors in the notebooks/homeworks contact me at: **ginevra.carbone@phd.units.it**
 
@@ -26,7 +26,8 @@ python3 -m virtualenv -p "$(which python3)" venv
 ```
 
 Now you should see `PATH_TO_DIR/statistical-machine-learning/venv/` folder.
-Activate the enviroment and install the requirements:
+Activate the environment and install the requirements:
+
 ```
 source venv/bin/activate
 python3 -m pip install -r ./requirements.txt 
@@ -42,7 +43,7 @@ Open your notebooks using jupyter-notebook (or jupyter-lab):
 python3 -m jupyter notebook
 ```
 
-To deactivate the environment use `source deactivate` command.
+To deactivate the environment use `deactivate` command.
 
 
 
