@@ -1,9 +1,10 @@
 references/
 venv/
 *.ipynb_checkpoints/
+*data/
+
 *.Rhistory
 homeworks/01_v35n4p9.pdf
 homeworks/cdf.png
 homeworks/download.png
 homeworks/hidden_markov_model.jpg
-
