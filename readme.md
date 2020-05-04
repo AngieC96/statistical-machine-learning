@@ -38,7 +38,15 @@ Register the just-installed virtual environment for use with Jupyter:
 python3 -m ipykernel install --user --name statistical-machine-learning --display-name "Python (SML virtualenv)"
 ```
 
+To run the notebooks in the folder [pandas and scikitlearn](#pandas and scikitlearn) also run the following commands:
+
+```bash
+pip3 install xlrd
+pip3 install -U scikit-learn
+```
+
 Open your notebooks using jupyter-notebook (or jupyter-lab):
+
 ```
 python3 -m jupyter notebook
 ```
